@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jaie Visha Parker • Creative Assistant</title>
+  <meta name="description" content="Portfolio mini-site for Jaie Visha Parker – Creative Assistant specializing in client relations, marketing support, and content creation." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root { --lavender:#7C6E91; --lavender-100:#f3f0f7; --slate:#2f2f38; }
+    html { scroll-behavior: smooth; }
+    body { font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; }
+    .chip { display:inline-flex; align-items:center; padding:4px 12px; border-radius:9999px; font-size:12px; font-weight:500; background:rgba(255,255,255,.7); border:1px solid rgba(0,0,0,.05); box-shadow:0 1px 2px rgba(0,0,0,.05);}
+    .image-link:hover img { filter: brightness(0.9); transition: filter .2s ease-in-out; }
+  </style>
+</head>
+<body class="bg-[var(--lavender-100)] text-[var(--slate)]">
+  <header class="sticky top-0 z-50 backdrop-blur bg-[var(--lavender-100)]/70 border-b border-black/5">
+    <div class="max-w-5xl mx-auto px-4">
+      <div class="flex items-center justify-between py-3">
+        <a href="#home" class="flex items-center gap-2">
+          <div class="w-8 h-8 rounded-xl bg-[var(--lavender)] text-white grid place-items-center font-semibold">JP</div>
+          <span class="font-semibold">Jaie Visha Parker</span>
+        </a>
+        <nav class="hidden md:flex items-center gap-6 text-sm">
+          <a class="hover:text-[var(--lavender)]" href="#about">About</a>
+          <a class="hover:text-[var(--lavender)]" href="#work">Work</a>
+          <a class="hover:text-[var(--lavender)]" href="#contact">Contact</a>
+        </nav>
+        <div class="flex items-center gap-2">
+          <a href="#contact" class="px-3 py-2 rounded-xl text-sm font-medium bg-[var(--lavender)] text-white hover:opacity-90">Hire Me</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section id="home" class="relative">
+    <div class="max-w-5xl mx-auto px-4">
+      <div class="grid md:grid-cols-2 gap-8 items-center py-12 md:py-16">
+        <div>
+          <h1 class="text-3xl md:text-5xl font-semibold leading-tight">
+            Creative Assistant
+            <span class="block text-[var(--lavender)]">Client Relations • Marketing Support</span>
+          </h1>
+          <p class="mt-4 text-[15px] text-black/70">Detail‑oriented and creative professional with strengths in content creation, social media, and administrative support. I help teams communicate clearly, stay organized, and ship polished work.</p>
+          <div class="mt-5 flex flex-wrap gap-2">
+            <span class="chip">Remote‑ready</span>
+            <span class="chip">Content & Social</span>
+            <span class="chip">Executive Support</span>
+          </div>
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a href="assets/jaie_visha_parker_fresher_resume.pdf" class="px-4 py-2 rounded-xl bg-white text-[var(--slate)] border border-black/10 shadow-sm hover:bg-black/5 font-medium" target="_blank" rel="noopener">Download Résumé (PDF)</a>
+            <a href="#work" class="px-4 py-2 rounded-xl bg-[var(--lavender)] text-white hover:opacity-90 font-medium">View Work</a>
+          </div>
+        </div>
+        <div class="relative">
+          <img src="assets/madilynnandjaxton_1054.jpg" alt="J. Amerson Photography Showcase" class="rounded-3xl border border-black/10 shadow-md w-full" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="py-10 border-t border-black/5 bg-white">
+    <div class="max-w-5xl mx-auto px-4">
+      <h2 class="text-xl font-semibold text-[var(--lavender)]">About</h2>
+      <p class="mt-3 text-[15px] leading-relaxed text-black/80">I bring 7+ years of blended experience across client relations, marketing operations, and executive assistance in remote environments. I’m known for dependable communication, well‑organized workflows, and a polished creative eye. I’m currently seeking a Creative Assistant role where I can support content, campaigns, and day‑to‑day operations.</p>
+    </div>
+  </section>
+
+  <section id="work" class="py-10">
+    <div class="max-w-5xl mx-auto px-4">
+      <h2 class="text-xl font-semibold text-[var(--lavender)]">Selected Work</h2>
+      <div class="mt-5 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <article class="group rounded-2xl overflow-hidden border border-black/10 bg-white shadow-sm image-link">
+          <a href="assets/ccll_chang-clayton.jpg" target="_blank"><img src="assets/ccll_chang-clayton.jpg" alt="Baseball Portrait by J. Amerson Photography" class="aspect-video object-cover w-full" /></a>
+          <div class="p-3">
+            <h3 class="font-medium">J. Amerson Photography – Youth Sports</h3>
+            <p class="text-sm text-black/70">Professional sports portrait photography.</p>
+          </div>
+        </article>
+        <article class="group rounded-2xl overflow-hidden border border-black/10 bg-white shadow-sm image-link">
+          <a href="assets/gunner-martinez.jpg" target="_blank"><img src="assets/gunner-martinez.jpg" alt="Football Graphic by J. Amerson Photography" class="aspect-video object-cover w-full" /></a>
+          <div class="p-3">
+            <h3 class="font-medium">J. Amerson Photography – Sports Poster</h3>
+            <p class="text-sm text-black/70">Custom design and composition work.</p>
+          </div>
+        </article>
+        <article class="group rounded-2xl overflow-hidden border border-black/10 bg-white shadow-sm image-link">
+          <a href="assets/jailynn-sandies-2.jpg" target="_blank"><img src="assets/jailynn-sandies-2.jpg" alt="Softball Graphic by J. Amerson Photography" class="aspect-video object-cover w-full" /></a>
+          <div class="p-3">
+            <h3 class="font-medium">J. Amerson Photography – Softball</h3>
+            <p class="text-sm text-black/70">Team and individual graphics.</p>
+          </div>
+        </article>
+        <article class="group rounded-2xl overflow-hidden border border-black/10 bg-white shadow-sm image-link">
+          <a href="assets/tllg-birthday-card-1.png" target="_blank"><img src="assets/tllg-birthday-card-1.png" alt="Levey Law Group Birthday Card Design" class="aspect-video object-cover w-full" /></a>
+          <div class="p-3">
+            <h3 class="font-medium">The Levey Law Group – Client Greeting</h3>
+            <p class="text-sm text-black/70">Internal marketing and graphic design.</p>
+          </div>
+        </article>
+        <article class="group rounded-2xl overflow-hidden border border-black/10 bg-white shadow-sm image-link">
+          <a href="assets/untitled-3.jpg" target="_blank"><img src="assets/untitled-3.jpg" alt="Levey Law Group Quote Graphic" class="aspect-video object-cover w-full" /></a>
+          <div class="p-3">
+            <h3 class="font-medium">The Levey Law Group – Social Media</h3>
+            <p class="text-sm text-black/70">Inspirational post design for engagement.</p>
+          </div>
+        </article>
+        <article class="group rounded-2xl overflow-hidden border border-black/10 bg-white shadow-sm image-link">
+          <a href="assets/trifold-brochure-.jpg" target="_blank"><img src="assets/trifold-brochure-.jpg" alt="Levey Law Group Brochure" class="aspect-video object-cover w-full" /></a>
+          <div class="p-3">
+            <h3 class="font-medium">The Levey Law Group – Brochure</h3>
+            <p class="text-sm text-black/70">Layout and content coordination.</p>
+          </div>
+        </article>
+        <article class="group rounded-2xl overflow-hidden border border-black/10 bg-white shadow-sm image-link">
+          <a href="assets/trifold-brochure-2.jpg" target="_blank"><img src="assets/trifold-brochure-2.jpg" alt="Levey Law Group Trifold Back" class="aspect-video object-cover w-full" /></a>
+          <div class="p-3">
+            <h3 class="font-medium">The Levey Law Group – Trifold (Back)</h3>
+            <p class="text-sm text-black/70">Company overview and services panel.</p>
+          </div>
+        </article>
+        <article class="group rounded-2xl overflow-hidden border border-black/10 bg-white shadow-sm image-link">
+          <a href="assets/roost.jpg" target="_blank"><img src="assets/roost.jpg" alt="Roosters Safety Flyer" class="aspect-video object-cover w-full" /></a>
+          <div class="p-3">
+            <h3 class="font-medium">Roosters – Safety Flyer</h3>
+            <p class="text-sm text-black/70">Public awareness and design content.</p>
+          </div>
+        </article>
+        <article class="group rounded-2xl overflow-hidden border border-black/10 bg-white shadow-sm image-link">
+          <a href="assets/rooste.jpg" target="_blank"><img src="assets/rooste.jpg" alt="Roosters Safety Tips" class="aspect-video object-cover w-full" /></a>
+          <div class="p-3">
+            <h3 class="font-medium">Roosters – Night Out Safety Tips</h3>
+            <p class="text-sm text-black/70">Community and social responsibility design.</p>
+          </div>
+        </article>
+      </div>
+      <div class="mt-6">
+        <a href="https://www.facebook.com/AmersonJPhotography" target="_blank" class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-white border border-black/10 shadow-sm hover:bg-black/5 text-sm font-medium">Visit J. Amerson Photography (Facebook)</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-12 border-t border-black/5 bg-white">
+    <div class="max-w-5xl mx-auto px-4">
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="md:col-span-2">
+          <h2 class="text-xl font-semibold text-[var(--lavender)]">Let’s Work Together</h2>
+          <p class="mt-2 text-[15px] text-black/75">Email or call for opportunities, collaborations, or to request additional samples. I’m based in Port Lavaca, TX and available for remote roles.</p>
+          <div class="mt-4 grid sm:grid-cols-2 gap-3 text-[15px]">
+            <a class="p-3 rounded-2xl bg-[var(--lavender)] text-white text-center font-medium hover:opacity-90" href="mailto:jaievishaparker@gmail.com">Email: jaievishaparker@gmail.com</a>
+            <a class="p-3 rounded-2xl bg-white border border-black/10 text-center font-medium hover:bg-black/5" href="tel:+13619202933">Call: (361) 920‑2933</a>
+          </div>
+          <div class="mt-3 text-sm text-black/60">Port Lavaca, TX • Remote‑friendly</div>
+        </div>
+        <aside class="p-4 rounded-2xl bg-[var(--lavender-100)] border border-black/10">
+          <h3 class="font-medium">Quick Links</h3>
+          <ul class="mt-2 space-y-2 text-sm">
+            <li><a class="hover:underline" href="#work">Selected Work</a></li>
+            <li><a class="hover:underline" href="assets/jaie_visha_parker_fresher_resume.pdf" target="_blank" rel="noopener">Download Résumé (PDF)</a></li>
+            <li><a class="hover:underline" target="_blank" href="https://www.facebook.com/AmersonJPhotography">J. Amerson Photography</a></li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-8">
+    <div class="max-w-5xl mx-auto px-4 flex items-center justify-between text-sm text-black/60">
+      <div>© <span id="year"></span> Jaie Visha Parker</div>
+      <a class="hover:text-[var(--lavender)]" href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
